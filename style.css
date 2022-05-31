@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(93, 113, 116);
+    
+}
+.apple-logo{
+    width: 2rem;
+    filter: invert(1);
+}
+.header{
+    min-width: 100%;
+    color: aliceblue;
+    background-color: rgb(189, 158, 158);
+   
+}
+.header-list{
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1em;
+    margin:0px 90px ;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+header li {
+    padding: 7px 0;
+}
+.unicef-section{ 
+    background-color: rgb(247, 241, 241);
+}
+.unicef-section-div{
+
+    display: grid;
+    align-items: center;
+    grid-template-columns:auto auto ;
+    justify-content: center;
+    padding: 15px;
+    
+}
+img {
+    width: 130px;
+}
+
+.first-photo-section{
+    height: 600px;
+    background-image: url("https://www.apple.com/v/home/ao/images/heroes/iphone-13-pro/hero_iphone13pro_avail__iy77cld0zwii_largetall_2x.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center ; 
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    place-content: center;
+    align-content: flex-start;
+    text-align: center;  
+    padding-top: 90px;
+}
+.second-photo-section{
+    height: 700px;
+    background-image: url("Second1-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding-top: 90px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    place-content: center;
+    align-content: flex-start;
+    text-align: center; 
+}
+.third-video-section{
+   /* position: relative;*/
+}
+.Dino-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*position: absolute;*/
+    
+}
+.fourth-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+.boxes{
+    display: grid;
+}
+.first-box{
+    position: relative;
+}
+.box1-video{
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+}
+.second-box{
+    background-image: url("box2-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.third-box{
+    background-image: url("box3-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
